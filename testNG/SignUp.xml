@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite parallel="tests" name="Parallel test suite"> -->
+<suite parallel="false" name="Suite">
+
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="domain" value="staging" />
+		<parameter name="dbConnectionURL"
+			value="jdbc:mysql://krmct000.kartrocket.com:3306/multichannel" />
+		<parameter name="dbUsername" value="anusha" />
+		<parameter name="dbPassword" value="4HNjupcbdVAXVhZn" />
+		<classes>
+			<class name="ShipRocket.SR.SignUpTest" />
+		</classes>
+	</test>
+
+</suite>

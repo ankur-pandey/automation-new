@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- <suite parallel="tests" name="Parallel test suite"> -->
+<suite parallel="false" name="Suite">
+
+
+	<test name="firefox Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="domain" value="production" />
+		<classes>
+			<class name="ShipRocket.SR.LoginTest" />
+			<class name="ShipRocket.SR.OrderTest" />
+		</classes>
+	</test>
+
+
+	<!-- <test name="Chrome Test"> <parameter name="browser" value="chrome" 
+		/> <parameter name="domain" value="production" /> <classes> <class name="ShipRocket.SR.LoginTest" 
+		/> </classes> </test> -->
+
+</suite>
