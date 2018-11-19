@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1538378913131" stop="1538378962372" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Chrome Test[browser=chrome, domain=production]</name>
+    <title>Suite : Chrome Test[browser=chrome, domain=production]</title>
+    <test-cases>
+        <test-case start="1538378926159" stop="1538378935891" status="passed">
+            <name>login_verify</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Chrome Test"/>
+                <label name="testClass" value="ShipRocket.SR.LoginTest"/>
+                <label name="testMethod" value="login_verify"/>
+                <label name="host" value="Anusha"/>
+                <label name="thread" value="4512@Anusha.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1538378935902" stop="1538378962309" status="passed">
+            <name>bulkUpload</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Chrome Test"/>
+                <label name="testClass" value="ShipRocket.SR.OrderTest"/>
+                <label name="testMethod" value="bulkUpload"/>
+                <label name="host" value="Anusha"/>
+                <label name="thread" value="4512@Anusha.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

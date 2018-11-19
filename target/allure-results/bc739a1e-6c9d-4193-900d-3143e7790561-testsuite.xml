@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1538737741566" stop="1538737806526" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : Chrome Test[dbUsername=anusha, browser=chrome, domain=staging, dbConnectionURL=jdbc:mysql://krmct000.kartrocket.com:3306/multichannel, dbPassword=4HNjupcbdVAXVhZn]</name>
+    <title>Suite : Chrome Test[dbUsername=anusha, browser=chrome, domain=staging, dbConnectionURL=jdbc:mysql://krmct000.kartrocket.com:3306/multichannel, dbPassword=4HNjupcbdVAXVhZn]</title>
+    <test-cases>
+        <test-case start="1538737752046" stop="1538737806467" status="passed">
+            <name>login_verify[jdbc:mysql://krmct000.kartrocket.com:3306/multichannel,anusha,4HNjupcbdVAXVhZn]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite"/>
+                <label name="testGroup" value="Chrome Test"/>
+                <label name="testClass" value="ShipRocket.SR.SignUpTest"/>
+                <label name="testMethod" value="login_verify"/>
+                <label name="host" value="Anusha"/>
+                <label name="thread" value="19960@Anusha.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
