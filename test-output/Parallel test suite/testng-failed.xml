@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="tests">
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="domain" value="production"/>
+    <classes>
+      <class name="ShipRocket.SR.LoginTest">
+        <methods>
+          <include name="login_verify"/>
+          <include name="preLaunchActivities"/>
+        </methods>
+      </class> <!-- ShipRocket.SR.LoginTest -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

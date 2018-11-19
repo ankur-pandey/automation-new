@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="domain" value="staging"/>
+    <classes>
+      <class name="ShipRocket.SR.OrderTestBulk">
+        <methods>
+          <include name="preLaunchActivities"/>
+          <include name="bulkUpload"/>
+        </methods>
+      </class> <!-- ShipRocket.SR.OrderTestBulk -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
