@@ -1,0 +1,10 @@
+Sno,url
+1,register
+2,login 
+3,orders/processing?page=1&perPage=15&shop=&ids=
+4,orders/manifests?page=1&perPage=15
+5,channels/add_channel/7/
+6,addorder/?redirect_url=
+7,referral
+8,channels/add_channel/2/
+9,company-address-details
